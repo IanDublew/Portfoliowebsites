@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -2rem;
+    color: rgb(44, 163, 159);
+}
+
+/*---Navigation---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    background: rgb(44, 163, 159) !important;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-brand h1 {
+    color: whitesmoke;
+    height: 2rem;
+    font-style: oblique;
+}
+
+.navbar-nav li {
+    padding-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+    padding-top: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+/*---Landing Page---*/
+.home-inner {
+    background-image: url('../assets/portrait-of-a-beautiful-sensual-young-yuliya-yafimik.jpg');
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-style: 2rem;
+    text-shadow: .1rem 1.rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+/*--Services Section--*/
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2 rem 0 3.5rem;
+    background: rgb(44, 163, 159);
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: whitesmoke;
+    margin: 0 auto 2rem;
+}
+
+.feature svg.svg-inline--fa {
+    color: rgb(44, 163, 159);
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+
+/*---Reviews Section---*/
+
+
+
+.clients img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+blockquote svg.svg-inline--fa {
+    color: whitesmoke;
+    margin: 1rem;
+
+}
+
+.clients-hr {
+    border-top: .5rem solid rgb(44, 163, 159);
+}
+
+
+/*---Gallery---*/
+.section-4 {
+    background: rgb(44, 163, 159);
+}
+
+.section-4 .container h1 {
+    font-size: 4vmin;
+    padding-top: 4vmin;
+    color: orange;
+}
+
+.section-4 .team {
+    padding: 5vmin 4vmin;
+
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 4vmin;
+    background-color: whitesmoke;
+}
+
+.section-4 .card-title {
+    color: orange;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+    color: orange;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+
+}
+
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+
+/*---Contacts Section---*/
+footer {
+    background: rgb(44, 163, 159);
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hoover {
+    color: #1ebba3 !important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+/*---Media Queries--*/
+
+@media (max-width:767px) {
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3 {
+        font-style: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+        padding: .6rem 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .clients img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
